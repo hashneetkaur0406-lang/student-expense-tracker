@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #2c3e50;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  background: #5aa3ad;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
+}
+
+h1 {
+  text-align: center;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  background: #00b894;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #019875;
+}
+
+.expense-item {
+  background: #f5f5f5;
+  padding: 20px;
+  margin-top: 15px;
+  border-radius: 14px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+.expense-left {
+  flex: 1;
+}
+
+.expense-buttons {
+  display: flex;
+  gap: 10px;
+  min-width: 140px;
+  justify-content: flex-end;
+}
+
+.delete-btn {
+  background: red;
+}
+
+.total {
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: bold;
+}
+h3 {
+  flex: 1;
+}
+.edit-btn {
+  background: #00b894;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 10px;
+}
+
+.delete-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 10px;
+}   
