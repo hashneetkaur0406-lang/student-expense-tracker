@@ -300,8 +300,6 @@ const downloadPDF = () => {
   background: darkMode ? "#333" : "#fff",
   color: darkMode ? "white" : "black",
 }}
-  value={category}
-  onChange={(e) => setCategory(e.target.value)}
 >
 
   <option value="">
