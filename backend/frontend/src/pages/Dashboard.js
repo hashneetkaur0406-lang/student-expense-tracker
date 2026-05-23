@@ -283,11 +283,6 @@ const downloadPDF = () => {
   onChange={(e) =>
     setBudget(e.target.value)
   }
-
-  style={{
-    background: darkMode ? "#333" : "#fff",
-    color: darkMode ? "white" : "black",
-  }}
 />
 
 <br /><br />
