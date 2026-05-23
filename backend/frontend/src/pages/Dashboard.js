@@ -292,37 +292,17 @@ const downloadPDF = () => {
   value={category}
   onChange={(e) => setCategory(e.target.value)}
   style={{
-  background: darkMode ? "#333" : "#fff",
-  color: darkMode ? "white" : "black",
-}}
+    background: darkMode ? "#333" : "#fff",
+    color: darkMode ? "white" : "black",
+  }}
 >
-
-  <option value="">
-    Select Category
-  </option>
-
-  <option value="Food">
-    Food
-  </option>
-
-  <option value="Travel">
-    Travel
-  </option>
-
-  <option value="Shopping">
-    Shopping
-  </option>
-
-  <option value="Bills">
-    Bills
-  </option>
-
-  <option value="Entertainment">
-    Entertainment
-  </option>
-
-</select>
-
+  <option value="">Select Category</option>
+  <option value="Food">Food</option>
+  <option value="Travel">Travel</option>
+  <option value="Shopping">Shopping</option>
+  <option value="Bills">Bills</option>
+  <option value="Entertainment">Entertainment</option>
+</select>   
 <br />
 
     <button
