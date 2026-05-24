@@ -302,7 +302,7 @@ const downloadPDF = () => {
   <option value="Shopping">Shopping</option>
   <option value="Bills">Bills</option>
   <option value="Entertainment">Entertainment</option>
-</select>   
+</select> 
 <br />
 
     <button
