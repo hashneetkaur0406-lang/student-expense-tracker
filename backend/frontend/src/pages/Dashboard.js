@@ -350,24 +350,12 @@ const downloadPDF = () => {
   </h3>
 
 )}
-      <h2 className="total">
-        Total Expenses: ₹{total}
-      </h2>
-      <input
-        type="text"
-        placeholder="Search expenses..."
-        value={search}
-        onChange={(e) => setSearch(e.target.value)}
-        style={{
-  background: darkMode ? "#333" : "#fff",
-  color: darkMode ? "white" : "black",
-}}
-      />
+  
       <select
   value={filter}
   onChange={(e) => setFilter(e.target.value)}
 >
-  <h3
+  <h3 
   style={{
     textAlign: "center",
   }}
